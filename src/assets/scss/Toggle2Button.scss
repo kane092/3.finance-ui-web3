@@ -1,0 +1,120 @@
+.switch {
+  position: relative;
+  width: 126px;
+  height: 30px;
+  #switch1, #switch2 {
+    position: absolute;
+    z-index:9;
+    -webkit-appearance: none;
+    & + label {
+      &::after {
+        position: absolute;
+        content: "";
+        width: 63px;
+        height: 30px;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        cursor: pointer;
+      }
+    }
+  } #switch2 {
+    & + label {
+      &::after {
+        left: 63px;
+        text-align: center;
+        font-size: 12px;
+        color: black;
+        top: 5px;
+      }
+    } &:checked {
+      & ~ .switch__inner {
+        background: #00FFF0;
+        transition: background-color 200ms ease-in-out;
+        &::after {
+          left: 63px;
+          transition: left 200ms ease-in-out;
+        }
+      }
+    } & {
+      & ~ .switch__inner {
+        background: #00FFF0;
+        transition: background-color 200ms ease-in-out;
+        &::after {
+          left: 63px;
+          transition: left 200ms ease-in-out;
+        }
+      }
+    }
+  } #switch2.label-hide {
+    & + label {
+      &::after {
+        content: "Hide";
+      }
+    }
+  } #switch2.label-crv {
+    & + label {
+      &::after {
+        content: "CRV";
+      }
+    }
+  } #switch1 {
+    & + label {
+      &::after {
+        left: 0;
+        font-size: 12px;
+        color: black;
+        top: 5px;
+        text-align: center;
+      }
+    } &:checked {
+      & ~ .switch__inner {
+        background: #00FFF0;
+        transition: background-color 200ms ease-in-out;
+        &::after {
+          left: 1px;
+          transition: left 200ms ease-in-out;
+        }
+      }
+    } & {
+      & ~ .switch__inner {
+        background: #00FFF0;
+        transition: background-color 200ms ease-in-out;
+        &::after {
+          left: 1px;
+          transition: left 200ms ease-in-out;
+        }
+      }
+    }
+  } #switch1.label-show {
+    & + label {
+      &::after {
+        content: "Show";
+      }
+    }
+  } #switch1.label-frax {
+    & + label {
+      &::after {
+        content: "FRAX";
+      }
+    }
+  } &__inner {
+    width: 126px;
+    height: 30px;
+    background: #00FFF0;
+    border: solid 1px #00FFF0;
+    border-radius: 30px;
+    &::after {
+      position: absolute;
+      display: block;
+      content:"";
+      width: 62px;
+      height: 28px;
+      top: 1;
+      left: 1;
+      background-color: #eee;
+      border-radius: 30px;
+      transition: left 200ms ease-in-out;
+    }
+  }
+}

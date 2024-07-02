@@ -1,0 +1,120 @@
+$md:900px;
+@mixin md {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+
+.Header {
+  position: fixed;
+  width: 100vw;
+  // transition: all 900ms;
+  @include md {
+    // background-image: url('../images/background-default.png');
+    // // background-image: url('../images/bg-large-simple.jpg');
+    // background-size: cover;
+    // background-position: top;
+  }
+  .duration-300 {
+    transition: all;
+    transition-duration: 300ms;
+  }.duration-900 {
+    transition: all;
+    transition-duration: 900ms;
+  }.duration-1800 {
+    transition: all;
+    transition-duration: 1800ms;
+  }
+  #myheader {
+    transition: all 900ms;
+  }
+  #myHeader.sticky {
+    display: block;
+  }
+  .Header-Connect-Wallet {
+    font-size: 12px;
+    line-height: 18px;
+    color: #4A4D58;
+    @include md {
+      font-size: 14px;
+    }
+    span {
+      height: 25px;
+      border-radius: 28px;
+      background: #00FFF0;
+      padding: 3px 12px;
+      cursor: pointer;
+      @include md {
+        height: 38px;
+        padding: 10px 15px;
+      }
+    }
+    div {
+      display: flex;
+      &:hover{
+        .Header-Connect-Wallet-Main{
+          width: auto;
+        }
+        .Connect-Button-Value{
+          margin-right: 5px;
+        }
+      }
+      span {
+        padding: 5px;
+      }span:nth-child(2) {
+        padding: 5px 10px 5px 5px;
+      }.Header-Connect-Wallet-Main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        transition: all 0.3s ease;
+        padding: 0px;
+        padding-left: 3px;
+        background: white;
+        border: 1px solid #00FFF0;
+        border-radius: 19px 0px 0px 19px;
+        .Connect-Button-Value{
+          width: auto;
+          padding-right: 5px;
+          padding-left: 5px;
+          transition: all 0.3s ease;
+        }
+        // &:hover{
+        //   .Connect-Button-Value{
+        //     padding-left: 15px;
+        //     padding-right: 20px;
+            
+        //   }
+        // }
+      }.Header-Connect-Wallet-Metamask {
+        border: 1px solid #00FFF0;
+        border-radius: 0px 19px 19px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}.Header.Header-LP {
+  background-image: url('../images/background-lp.png');
+}.Header.Header-LPs {
+  background-image: url('../images/background-lps.png');
+}
+// .Header.Header-inherit {
+//   // background: none;
+//   // background-image: url('../images/background-lps.png');
+//   background: inherit;
+//   background-position: 0% 15%;
+//   @include md {
+//     background-position: 0% 20%;
+//   }
+// }
+
+.Header.Header-transparent {
+   background: transparent;
+  background-position: 0% 15%;
+  @include md {
+    background-position: 0% 20%;
+  }
+}

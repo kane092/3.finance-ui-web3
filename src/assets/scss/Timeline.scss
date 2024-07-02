@@ -1,0 +1,153 @@
+$md:900px;
+@mixin md {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+$lg:1024px;
+@mixin lg {
+  @media (min-width: #{$lg}) {
+    @content;
+  }
+}
+$xl:1280px;
+@mixin xl {
+  @media (min-width: #{$xl}) {
+    @content;
+  }
+}
+$xl2:1536px;
+@mixin xl2 {
+  @media (min-width: #{$xl2}) {
+    @content;
+  }
+}
+
+@font-face {
+  font-family:  MabryPro;
+  src: url('../fonts/MabryPro/mabry_pro_light-webfont.woff');
+}
+
+.timeline-connecting-line{
+  display: block;
+  position: absolute;
+  // bottom: 50%;
+  left: 23px;
+  // transform: translate(50%, 0);
+  width: 5px;
+  height: 70vh;
+  border-right: 1px solid #D9D9D94D;
+  background: #FFFFFF4F;
+  opacity: .5;
+  backdrop-filter: blur(10px);
+  border-radius: 1px;
+  // display:none;
+}
+.Timeline{
+  .MuiTimelineItem-missingOppositeContent:before{
+    flex: none;
+  }
+  .MuiTimelineContent-root {
+    margin-left: 0;
+    font-family: 'mabry_proregular';
+    transition: all 1s linear !important;
+    .timeline-detail::-webkit-scrollbar{display: none;}
+    .timeline-detail{
+      // border:'1px solid';
+      // max-height:'400px';
+      // overflow-y:'auto';
+      // font-size:'12px';
+      // font-weight:'normal'
+      font-family: 'mabry_proregular';
+      // .Navbar-Body::-webkit-scrollbar{display: none;}
+      .Navbar-Body{
+        font-family: 'mabry_proregular';
+        .Navbar-Details{
+          font-family: 'mabry_proregular';
+          .Navbar-Body-First-Row{
+            font-family: 'mabry_proregular';
+            .Navbar-Body-Header{
+              font-family: 'mabry_proregular';
+              font-size: 20px !important;
+              line-height: 28px;
+              margin: 0px 0px 10px 0px;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .MuiTimelineItem-root:before{
+    padding: 0;
+  }
+  // .MuiTimelineItem-root{
+  .timelineItem, .MuiTimelineItem-root{
+    transition: all 1s linear !important;
+    min-height: 0px;
+    .MuiTimelineSeparator-root{
+      .nav-dot{
+        background: #00fff0;
+        // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        z-index: 1;
+        cursor: pointer;
+        //will change value of top on navbar state change to move the dots
+        position: absolute;
+        top: 15px;
+      }
+      .MuiTimelineConnector-root{
+        width: 5px;
+        border-right: 1px solid #D9D9D94D;
+        background: #FFFFFF4F;
+        opacity: .5;
+        backdrop-filter: blur(10px);
+        border-radius: 1px;
+        // display: none;
+
+      }
+      // .MuiTimelineDot-root{
+      //   margin: 0;
+      //   display: none ;
+      // }
+    }
+  }
+  .MuiTimelineContent-root {
+    font-family: 'mabry_proregular' !important;
+  }
+}
+
+.timeline-content{
+    // overriding MUI CLASS to update verticle spacing between mui timeline items
+    // user defined values
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+
+    //Default MUI Values
+    margin: 0 !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.00938em !important;
+    -webkit-flex: 1 !important;
+    -ms-flex: 1 !important;
+    flex: 1 !important;
+    padding: 6px 16px !important;
+    text-align: left !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.Navbar-Body-Header{
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0 0 10px;
+}
+
+.Navbar-Body-Content {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 25px;
+}

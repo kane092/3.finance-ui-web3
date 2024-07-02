@@ -1,0 +1,15 @@
+.Deposits {
+  margin-bottom: 50px;
+  transition: all 900ms;
+  .Deposits-Description-Header {
+    font-size: 18px;
+  }.filter-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+hr {
+  border-top-width: 1px;
+  border-color: rgba(204, 204, 204, 0.23);
+}

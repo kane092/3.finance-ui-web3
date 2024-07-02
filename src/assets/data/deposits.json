@@ -1,0 +1,1312 @@
+[
+  {
+    "type": "3Fi Collateral:",
+    "fields": [
+      {
+        "fieldSymbol": "./images/token7.png",
+        "fieldName": "ParAi",
+        "fieldFullName": "3Fi NFTs - ParAi",
+        "fieldAPR": "17.1234",
+        "fieldTVL": 0,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details2.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token7.png",
+        "fieldName": "TomAi",
+        "fieldFullName": "3Fi NFTs - TomAi",
+        "fieldAPR": "228.86",
+        "fieldTVL": 0,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details2.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token7.png",
+        "fieldName": "MolAi",
+        "fieldFullName": "3Fi NFTs - MolAi",
+        "fieldAPR": "228.86",
+        "fieldTVL": 0,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details2.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token7.png",
+        "fieldName": "MatAi",
+        "fieldFullName": "3Fi NFTs - MatAi",
+        "fieldAPR": "228.86",
+        "fieldTVL": 0,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details2.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token7.png",
+        "fieldName": "SorAi",
+        "fieldFullName": "3Fi NFTs - SorAi",
+        "fieldAPR": "228.86",
+        "fieldTVL": 0,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details2.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token1.png",
+        "fieldName": "3Fi",
+        "fieldFullName": "3Fi Collateral - CRV Base",
+        "fieldAPR": "228.86",
+        "fieldTVL": 103590041,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details2.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Compound deposits:",
+    "fields": [
+      {
+        "fieldSymbol": "./images/token2.png",
+        "fieldName": "Curve",
+        "fieldFullName": "Curve C.D.P",
+        "fieldAPR": "104.8621",
+        "fieldTVL": 901490041,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details3.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 0.63,
+                "Month": 0.35,
+                "QuarterYear": 0.51,
+                "HalfYear": 0.49
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details4.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 0.63,
+                "Month": 0.35,
+                "QuarterYear": 0.51,
+                "HalfYear": 0.49
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 0.63,
+                "Month": 0.35,
+                "QuarterYear": 0.51,
+                "HalfYear": 0.49
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token3.png",
+        "fieldName": "Convex",
+        "fieldFullName": "Convex C.D.P",
+        "fieldAPR": "78.4241",
+        "fieldTVL": 641253508,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details5.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details6.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token4.png",
+        "fieldName": "Bent",
+        "fieldFullName": "Bent C.D.P",
+        "fieldAPR": "128.86",
+        "fieldTVL": 84653757,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "CRV",
+            "emissionLogo": "./images/details1.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details5.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details6.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 1.00,
+                "Month": 1.00,
+                "QuarterYear": 1.00,
+                "HalfYear": 1.00
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Liquidity I can deposit:",
+    "fields": [
+      {
+        "fieldSymbol": "./images/token5.png",
+        "fieldName": "cvxCRV",
+        "fieldFullName": "cvxCurve on Curve",
+        "fieldAPR": "11.1234",
+        "fieldTVL": 1234567890,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "ABC",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 4,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 1,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token5.png",
+        "fieldName": "cvxCRV",
+        "fieldFullName": "cvxCurve on Convex",
+        "fieldAPR": "21.1234",
+        "fieldTVL": 1234567890,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "ABC",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 4,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 1,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Other liquid opportunities:",
+    "fields": [
+      {
+        "fieldSymbol": "./images/token5.png",
+        "fieldName": "cvxCRV",
+        "fieldFullName": "cvxCurve on Curve",
+        "fieldAPR": "11.1234",
+        "fieldTVL": 1234567890,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "ABC",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 4,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 1,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token5.png",
+        "fieldName": "cvxCRV",
+        "fieldFullName": "cvxCurve on Convex",
+        "fieldAPR": "21.1234",
+        "fieldTVL": 1234567890,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "ABC",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 4,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 1,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "fieldSymbol": "./images/token5.png",
+        "fieldName": "cvxCRV",
+        "fieldFullName": "cvxCurve on Bent",
+        "fieldAPR": "31.1234",
+        "fieldTVL": 1234567890,
+        "fieldLP": 0,
+        "emissionList": [
+          {
+            "emissionName": "ABC",
+            "emissionLogo": "./images/token8.png",
+            "emissionAmount": 40,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 34,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 16,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 4,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          },
+          {
+            "emissionName": "SDT",
+            "emissionLogo": "./images/details7.png",
+            "emissionAmount": 1,
+            "emissionAverage": {
+              "CRV": {
+                "One": 4.06,
+                "Month": 2.35,
+                "QuarterYear": 1.01,
+                "HalfYear": 0.63
+              },
+              "CVX": {
+                "One": 1.14,
+                "Month": 1.02,
+                "QuarterYear": 0.93,
+                "HalfYear": 1.33
+              },
+              "BENT": {
+                "One": 14.35,
+                "Month": 9.82,
+                "QuarterYear": 4.28,
+                "HalfYear": 2.37
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

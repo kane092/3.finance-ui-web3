@@ -1,0 +1,52 @@
+[
+  {
+    "id":5,
+    "name": "ParAi",
+    "symbol": "./images/NFT-Power-Levels/Level 1.jpg",
+    "fieldSymbol": "./images/NFT-Power-Levels/Level 1.jpg",
+    "requirementA": 100,
+    "requirementB": 1000,
+    "type":"NFT",
+    "isNFT": true
+  },
+  {
+    "id":4,
+    "name": "TomAi",
+    "symbol": "./images/NFT-Power-Levels/Level 2.jpg",
+    "fieldSymbol": "./images/NFT-Power-Levels/Level 2.jpg",
+    "requirementA": 1000,
+    "requirementB": 10000,
+    "type":"NFT",
+    "isNFT": true
+  },
+  {
+    "id":3,
+    "name": "MolAi",
+    "symbol": "./images/NFT-Power-Levels/Level 3.jpg",
+    "fieldSymbol": "./images/NFT-Power-Levels/Level 3.jpg",
+    "requirementA": 10000,
+    "requirementB": 100000,
+    "type":"NFT",
+    "isNFT": true
+  },
+  {
+    "id":2,
+    "name": "MatAi",
+    "symbol": "./images/NFT-Power-Levels/Level 4.jpg",
+    "fieldSymbol": "./images/NFT-Power-Levels/Level 4.jpg",
+    "requirementA": 100000,
+    "requirementB": 1000000,
+    "type":"NFT",
+    "isNFT": true
+  },
+  {
+    "id":1,
+    "name": "SorAi",
+    "symbol": "./images/NFT-Power-Levels/Level 5.jpg",
+    "fieldSymbol": "./images/NFT-Power-Levels/Level 5.jpg",
+    "requirementA": 1000000,
+    "requirementB": 3000000,
+    "type":"NFT",
+    "isNFT": true
+  }
+]

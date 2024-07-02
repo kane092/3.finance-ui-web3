@@ -1,0 +1,76 @@
+$md:900px;
+@mixin md {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box
+}h1, p, ul {
+  margin: 0px;
+  padding: 0px;
+}h1 {
+  font-weight: 500 !important;
+  font-size: 27px !important;
+  line-height: 34px !important;
+  margin: 0px 0px 10px 0px !important;
+  @include md {
+    font-size: 42px !important;
+    line-height: 53px !important;
+    margin: 0px 0px 20px 0px !important;
+  }
+}.App {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'mabry_proregular';
+  // font-family: 'mabry_prolight';
+  // line-height: 23px;
+  color: white;
+  overflow-x: hidden;
+  background-image: url('../images/background-lp.png');
+  background-position: top center;
+  background-size: cover;
+  .App-Content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .bg-mask {
+    background-color: #00000050;
+  }
+}
+.App-Bg{
+  // background-image: url('../images/background-default.png');
+  // background-image: url('../images/bg-large-simple.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.App-LP-Bg {
+  // background-image: url('../images/background-lp.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.App-LPs {
+  // background-image: url('../images/background-lps.png');
+}
+::-webkit-scrollbar {
+  /* width */
+  width: 0px;
+  margin-right: 5px;
+}::-webkit-scrollbar-track {
+  /* Track */
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}::-webkit-scrollbar-thumb {
+  /* Handle */
+  background: #00FFF0;
+  border-radius: 10px;
+}::-webkit-scrollbar-thumb:hover {
+  /* Handle on hover */
+  background: #00EEFF; 
+}

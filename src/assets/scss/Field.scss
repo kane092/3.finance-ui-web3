@@ -1,0 +1,490 @@
+$md: 900px;
+
+@mixin md {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+
+$lg: 1024px;
+
+@mixin lg {
+  @media (min-width: #{$lg}) {
+    @content;
+  }
+}
+
+$xl: 1280px;
+
+@mixin xl {
+  @media (min-width: #{$xl}) {
+    @content;
+  }
+}
+
+$xl2: 1536px;
+
+@mixin xl2 {
+  @media (min-width: #{$xl2}) {
+    @content;
+  }
+}
+
+.Field {
+  position: relative;
+  height: 56px;
+  width: 100% !important;
+  margin: -1px 0px 0px 0px !important;
+  padding: 5px !important;
+  background: rgba(42, 46, 59, 0.85);
+  border: 1px solid #4A4D58;
+  border-radius: 9px;
+  align-items: center;
+  font-size: 14px;
+  transition: all 300ms linear;
+  cursor: pointer;
+
+  @include md {
+    font-size: 16px;
+    height: 70px;
+  }
+
+  @include xl {
+    font-size: 18px;
+  }
+
+  .Field-APR::before,
+  .Field-APR::after {
+    content: "";
+    width: 1px;
+    height: 35px;
+    background: linear-gradient(0deg, #63717A, #63717A), #63717A;
+    position: absolute;
+  }
+
+  .Field-APR::before {
+    left: 0px;
+  }
+
+  .Field-APR::after {
+    right: 0px;
+  }
+
+  .Field-APR {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .Field-APR-Left {
+      margin: 0px 0px 0px 5px;
+      // white-space: nowrap;
+      span {
+        font-size: 12px;
+        line-height: 15px;
+      }
+      p {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .Field-TVL {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .Field-APR-Left {
+      margin: 0px 0px 0px 5px;
+      // white-space: nowrap;
+      span {
+        // font-size: 12px;
+        line-height: 15px;
+      }
+      p {
+        white-space: nowrap;
+      }
+    }
+
+    .Field-TVL-Right,
+    .Field-TVL-Right-Special {
+      width: 100%;
+      text-align: right;
+    }
+
+    .Field-TVL-Right-Special {
+      padding: 0px 30px;
+    }
+
+    .Deposits-Indicator-Left::after,
+    .Emissions-Indicator-Left::after {
+      // transition: 600ms;
+      @include lg {
+        content: "";
+        width: 17px;
+        height: 70px;
+        top: -18px;
+        background: url('../images/field-indicator.png');
+        // left: 1821.3333740234375;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        z-index: 1000;
+        opacity: 0;
+        animation-name: leftshow;
+        animation-fill-mode: forwards;
+        animation-duration: 600ms;
+      }
+    }
+    .Deposits-Indicator-Right::after,
+    .Emissions-Indicator-Right::after {
+      @include lg {
+        content: "";
+        width: 17px;
+        height: 70px;
+        top: -18px;
+        background: url('../images/field-indicator-right.png');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        z-index: 1000;
+        opacity: 0;
+        animation-name: rightshow;
+        animation-fill-mode: forwards;
+        animation-duration: 600ms;
+      }
+    }
+    .delayed-indicator::after {
+      animation-delay: 900ms;
+    }
+
+    .Deposits-Indicator-Left::after,
+    .Deposits-Indicator-Right::after,
+    .Emissions-Indicator-Left::after,
+    .Emissions-Indicator-Right::after,
+    .Wallet-Indicator-Left::after,
+    .NFT-Indicator-Left::after {
+      top: -6px;
+    }
+
+    // .Deposits-Indicator-Right::after,
+    // .Emissions-Indicator-Right::after {
+    //   transform: rotate(180deg);
+    // }
+
+    .Field-TVL-More {
+      color: #00FFFF;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+
+      img {
+        width: 14px;
+        height: 12px;
+        margin: 0px 0px 0px 6px;
+      }
+    }
+  }
+
+  .Field-APR-Hover {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 900ms;
+  }
+
+  .img-gray {
+    filter: grayscale(1)
+  }
+
+  .second-img {
+    position: absolute;
+    inset: 30px auto auto 35px;
+
+    @include md {
+      inset: 44px auto auto 42px;
+    }
+  }
+
+  .text-transition {
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+  }
+}
+
+// .Field:first-child {
+//   margin-top: 10px !important;
+// }
+
+.Field.Field-NFT {
+  border: 1px solid #4A4D58;
+}
+
+// .Field.Field-First {
+//   margin-top: 75px !important;
+// }
+
+.Field.Field-Indicator {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #FFFFFF02;
+  margin-bottom: 0px !important;
+}
+
+.Field-Hidden {
+  display: none !important;
+}
+
+// .Field:hover {
+//   z-index: 10;
+// }
+// .Field.Field-Selected {
+//   z-index: 9;
+// }
+
+.Field:hover,
+.Field.Field-Selected {
+  // border: 1px solid #00FFF0;
+  margin-bottom: 0px !important;
+
+  .Field-APR,
+  .Field-TVL.multi-line {
+    p,
+    span {
+      margin-bottom: 0px;
+
+      @include md {
+        margin-bottom: 19px;
+      }
+    }
+  }
+
+  .Field-APR-Hover {
+    visibility: visible;
+    opacity: 100;
+    top: 33px;
+  }
+
+  .Field-Hover {
+    position: relative;
+    opacity: 100;
+    transition: opacity 1s;
+  }
+}
+
+.Field-Fixed {
+    transition-duration: 300ms;
+}
+
+.Field-Hover {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.Field.Field-Special:hover {
+  // border: 1px solid #00FFF0;
+  margin-bottom: 0px !important;
+  // z-index: 9;
+
+  .Field-APR {
+
+    p,
+    span {
+      margin-bottom: 0px;
+    }
+  }
+
+  .Field-TVL {
+
+    p,
+    span {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.Field.Field-Selected {
+  // border: 1px solid white;
+  background: rgba(255, 255, 255, 0.2);
+}
+.Field.Field-Selected::after,
+.Field-Special-Selected::after {
+  border: 1px solid white!important;
+}
+.Field:hover::after,
+.Field.Field-Selected::after,
+.Field-Special-Selected::after {
+  content: '';
+  position: absolute;
+  // left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border: 1px solid #00FFF0;
+  border-radius: 9px;
+  animation: show;
+  animation-duration: 300ms;
+}
+
+.Field.Field-Selected,
+.Field:hover.Field-Indicator {
+  margin-bottom: 0px !important;
+}
+
+.Field.Field-NFT {
+  background: rgba(7, 0, 13, 0.5) !important;
+}
+.Field.Field-NFT.Field-Selected {
+  background: rgba(7, 0, 13, 0.85) !important;
+}
+.Field.Field-Special-Selected {
+  border: 1px dashed #FFFFFF;
+}
+
+.Field-More {
+  position: relative;
+  height: 56px;
+  width: 100% !important;
+  margin: 0px 0px -1px 0px !important;
+  padding: 5px !important;
+  background: rgba(42, 46, 59, 0.85);
+  border: 1px solid #4A4D58;
+  border-radius: 9px;
+  align-items: center;
+  font-size: 16px;
+  transition: all 300ms linear;
+  cursor: pointer;
+
+  @include md {
+    height: 70px;
+  }
+
+  @include xl {
+    font-size: 18px;
+  }
+}
+
+.Field .Field-Emissions {
+  margin-bottom: 0;
+}
+
+.Field:hover .Field-Emissions,
+.Field.Field-Selected .Field-Emissions,
+.Field.Field-Indicator .Field-Emissions {
+  margin-bottom: 15px;
+}
+
+.Field-Connected.Field-Selected .Deposits-Indicator-Left::after,
+.Field-Connected.Field-Selected .Deposits-Indicator-Right::after,
+.Field-Connected.Field-Selected .Emissions-Indicator-Left::after,
+.Field-Connected.Field-Selected .Emissions-Indicator-Right::after,
+.Field-Connected.Field-Selected:hover .Deposits-Indicator-Left::after,
+.Field-Connected.Field-Selected:hover .Deposits-Indicator-Right::after,
+.Field-Connected.Field-Indicator:hover .Deposits-Indicator-Right::after,
+.Field-Connected.Field-Indicator:hover .Deposits-Indicator-Left::after,
+.Field-Connected.Field-Indicator .Deposits-Indicator-Right::after,
+.Field-Connected.Field-Indicator .Deposits-Indicator-Left::after {
+  top: -6px;
+}
+
+.Field-Connected.Field-Indicator:hover .Field-Deposits p,
+.Field-Connected:hover .Field-Deposits p,
+.Field-Connected.Field-Selected .Field-Deposits p {
+  margin-bottom: 15px;
+}
+
+.Field-Connected.Field-Indicator .Field-TVL, .Field-Connected.Field-Selected .Field-TVL {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+// .Field-Connected:hover .Field-TVL-Right {
+//   margin-bottom: 10px;
+// }
+// .Field-Connected.Field-Selected .Field-TVL-Right {
+//   margin-bottom: 10px;
+// }
+
+.Field-Selected .Field-Deposits .Field-APR-Hover {
+  margin-top: 5px;
+}
+// .Field-Indicator:hover .Deposits-Indicator-Left::after, .Field-Indicator:hover .Deposits-Indicator-Right::after {
+//   top: -6px;
+// }
+
+// .Field-Connected .Field-Deposits p, .Field-Connected:hover .Field-Deposits p, .Field-Connected.Field-Selected .Field-Deposits p{
+//   margin-bottom: 15px;
+// }
+
+// .Field-Connected.Field-Indicator .Field-Deposits p {
+//   margin-bottom: 0;
+// }
+
+@keyframes rightshow {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  25% {
+    opacity: 0.25;
+    transform: scaleX(0.25);
+    transform-origin: left;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scaleX(0.5);
+    transform-origin: left;
+  }
+
+  75% {
+    opacity: 0.75;
+    transform: scaleX(0.75);
+    transform-origin: left;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+@keyframes leftshow {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  
+  25% {
+    opacity: 0.25;
+    transform: scaleX(0.25);
+    transform-origin: right;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scaleX(0.5);
+    transform-origin: right;
+  }
+
+  75% {
+    opacity: 0.75;
+    transform: scaleX(0.75);
+    transform-origin: right;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+}

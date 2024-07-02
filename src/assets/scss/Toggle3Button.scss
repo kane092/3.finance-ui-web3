@@ -1,0 +1,44 @@
+.switch_3 {
+  position: relative;
+  // width: 240px;
+  // height: 30px;
+  width: fit-content;
+  min-height: auto!important;
+  .MuiTabs-flexContainer {
+    background: rgba(255,255,255,0.6);
+    border-radius: 21px;
+  }.MuiTab-root {
+    opacity: 1;
+    text-transform: none;
+    box-sizing: border-box;
+    color: #4A4D58;
+    font-family: 'mabry_proregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    gap: 10px;
+
+    min-width: auto;
+    min-height: auto;
+
+    /* 3 White */
+
+    // background: #FFFFFF;
+    border-radius: 21px;
+  }.MuiTab-root.Mui-selected {
+    background: #FFFFFF;
+  }.MuiTabs-indicator {
+    display: none;
+  }
+}

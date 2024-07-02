@@ -1,0 +1,76 @@
+{
+  "name": "3.finance",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "16.20.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@metamask/providers": "^11.0.0",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/lab": "^5.0.0-alpha.129",
+    "@mui/material": "^5.10.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.58",
+    "@types/ramda": "^0.28.23",
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "bignumber.js": "^9.1.1",
+    "classnames": "^2.3.2",
+    "ethers": "^6.0.8",
+    "node-sass": "^7.0.3",
+    "numeral": "^2.0.6",
+    "ramda": "^0.28.0",
+    "react": "^18.2.0",
+    "react-animations": "^1.0.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "serve": "^14.0.1",
+    "typescript": "^4.8.3",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.2"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-animations": "^1.0.0",
+    "autoprefixer": "^10.4.11",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
